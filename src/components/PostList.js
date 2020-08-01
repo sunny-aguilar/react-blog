@@ -8,7 +8,7 @@ class PostList extends React.Component {
   }
 
   renderList() {
-    return this.props.posts.map(() => {
+    return this.props.posts.map(post => {
       return (
         <div className="item" key={postMessage.id}>
           <i className="large middle aligned icon user" />
