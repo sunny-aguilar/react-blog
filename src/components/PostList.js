@@ -8,7 +8,11 @@ class PostList extends React.Component {
   }
 
   renderLists() {
-    
+    return this.props.posts.map(
+      return (
+        
+      );
+    );
   }
 
   render() {
