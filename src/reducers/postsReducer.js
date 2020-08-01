@@ -3,5 +3,7 @@ export default (state = [], action) => {
     return action.payload;
   }
 
+  // return original state if action type is not the
+  // type it is designed to handle
   return state;
 };
