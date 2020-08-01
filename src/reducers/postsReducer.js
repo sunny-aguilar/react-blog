@@ -1,5 +1,5 @@
 export default (state = [], action) => {
-  if (action.type === "") {
+  if (action.type === "FETCH_POSTS") {
     return action.payload;
   }
 };
