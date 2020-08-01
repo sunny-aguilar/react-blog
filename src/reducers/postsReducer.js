@@ -5,8 +5,4 @@ export default (state = [], action) => {
     default:
       return state;
   }
-
-  // return original state if action type is not the
-  // type it is designed to handle
-  return state;
 };
