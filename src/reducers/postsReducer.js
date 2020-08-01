@@ -1,3 +1,5 @@
 export default (state = [], action) => {
-  return 123;
+  if (action.type === "") {
+    return action.payload;
+  }
 };
