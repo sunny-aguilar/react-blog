@@ -7,7 +7,7 @@ class PostList extends React.Component {
     this.props.fetchPosts();
   }
 
-  renderLists() {
+  renderList() {
     return this.props.posts.map(() => {
       return (
         <div className="item" key={postMessage.id}>
@@ -24,7 +24,7 @@ class PostList extends React.Component {
   }
 
   render() {
-  return <div className="ui relaxed divided list">{this.renderLists()}</div>;
+  return <div className="ui relaxed divided list">{this.renderList()}</div>;
   }
 }
 
