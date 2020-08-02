@@ -7,5 +7,5 @@ export const fetchPosts = () => async (dispatch) => {
 };
 
 export const fetchUser = (id) => {
-  const response = await jasonPlaceholder.get('/users');
+  const response = await jasonPlaceholder.get('/users/' + id);
 };
