@@ -14,8 +14,8 @@ class PostList extends React.Component {
           < i className="large middle aligned icon user" />
           <div className="content">
             <div className="description">
-              <h2>{}</h2>
-              
+              <h2>{post.title}</h2>
+
             </div>
           </div>
         </div>
