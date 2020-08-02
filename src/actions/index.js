@@ -6,4 +6,4 @@ export const fetchPosts = () => async (dispatch) => {
   dispatch({ type: "FETCH_POSTS", payload: response.data });
 };
 
-export const fetchUser = ();
+export const fetchUser = (id);
