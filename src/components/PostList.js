@@ -15,6 +15,7 @@ class PostList extends React.Component {
           <div className="content">
             <div className="description">
               <h2>{}</h2>
+              
             </div>
           </div>
         </div>
