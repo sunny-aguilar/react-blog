@@ -7,13 +7,13 @@ class PostList extends React.Component {
     this.props.fetchPosts();
   }
 
-  renderList() {
-    return this.props.posts.map(post => {
-      return (
-        <div className="item" key={post.id}>asdf</div>
-      );
-    });
-  }
+  // renderList() {
+  //   return this.props.posts.map(post => {
+  //     return (
+  //       <div className="item" key={post.id}>asdf</div>
+  //     );
+  //   });
+  // }
 
   render() {
     console.log(this.props.posts);
