@@ -13,7 +13,7 @@ class PostList extends React.Component {
         <div className="item" key={post.id}>asdf</div>
       );
     });
-    // return <div>Post List</div>;
+    
   }
 
   render() {
