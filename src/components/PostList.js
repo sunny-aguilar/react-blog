@@ -15,7 +15,7 @@ class PostList extends React.Component {
           <div className="content">
             <div className="description">
               <h2>{post.title}</h2>
-      <p>{}</p>
+              <p>{}</p>
             </div>
           </div>
         </div>
