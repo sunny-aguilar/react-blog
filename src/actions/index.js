@@ -7,5 +7,5 @@ export const fetchPosts = () => async (dispatch) => {
 };
 
 export const fetchUser = (id) => {
-  
+  const response = ;
 };
