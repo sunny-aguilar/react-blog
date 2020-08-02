@@ -8,12 +8,12 @@ class PostList extends React.Component {
   }
 
   renderList() {
-    // return this.props.posts.map(post => {
-    //   return (
-    //     <div className="item" key={post.id}>asdf</div>
-    //   );
-    // });
-    return <div>Post List</div>;
+    return this.props.posts.map(post => {
+      return (
+        <div className="item" key={post.id}>asdf</div>
+      );
+    });
+    // return <div>Post List</div>;
   }
 
   render() {
