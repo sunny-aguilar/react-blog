@@ -18,7 +18,7 @@ class PostList extends React.Component {
               <p>{post.body}</p>
             </div>
           </div>
-          <UserHeader userId= />
+          <UserHeader userId={} />
         </div>
       );
     });
