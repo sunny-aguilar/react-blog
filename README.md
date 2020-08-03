@@ -1,6 +1,7 @@
+## React / Redux / APIs / Middleware (Redux-Thunk)
 This app focuses on the use cases of React and Redux and is not really meant to showcase<br /> anything fancy. It was created to learn more about Redux reducers and how they work and<br /> apply them to this app. I also focus on learning how to make an API request using Redux<br />
 to return it back to my React application and make use of it. I also focus on incorporating<br />
-middleware inside of Redux called "Redux-Thunk."<br />
+middleware inside of Redux called "Redux-Thunk."<br /><br />
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
