@@ -1,6 +1,5 @@
 import React from "react";
 import { connect } from "react-redux";
-import { fetchUser } from "../actions";
 
 class Userheader extends React.Component {
   render() {
