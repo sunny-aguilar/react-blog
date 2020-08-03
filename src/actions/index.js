@@ -6,7 +6,7 @@ export const fetchPostsAndUsers = () => async (dispatch, getState) => {
   console.log("about to fetch posts ")
   await dispatch(fetchPosts());
   getState().posts;
-  console.log("fetched posts ")
+  console.log(getState().posts);
 };
 
 export const fetchPosts = () => async (dispatch) => {
