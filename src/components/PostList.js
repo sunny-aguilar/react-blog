@@ -36,4 +36,4 @@ const mapStateToProps = (state) => {
   return { posts: state.posts };
 };
 
-export default connect(mapStateToProps, { fetchPostsAndUsers })(PostList);
+export default connect(mapStateToProps)(PostList);
