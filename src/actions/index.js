@@ -3,7 +3,7 @@ import jsonPlaceholder from "../apis/jsonPlaceholder";
 
 // action creators
 export const fetchPosts = () => async dispatch => {
-  dispatch(fetchPosts());
+  await dispatch(fetchPosts());
 };
 
 export const fetchPosts = () => async (dispatch) => {
