@@ -3,9 +3,9 @@ import jsonPlaceholder from "../apis/jsonPlaceholder";
 
 // action creators
 export const fetchPostsAndUsers = () => async (dispatch, getState) => {
-  console.log("about to fetch posts ")
+  console.log("about to fetch posts ");
   await dispatch(fetchPosts());
-  getState().posts;
+  // getState().posts;
   console.log(getState().posts);
 };
 
