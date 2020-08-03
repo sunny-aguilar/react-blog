@@ -5,6 +5,7 @@ import jsonPlaceholder from "../apis/jsonPlaceholder";
 export const fetchPostsAndUsers = () => async (dispatch, getState) => {
   console.log("about to fetch posts ")
   await dispatch(fetchPosts());
+  getState().posts;
   console.log("fetched posts ")
 };
 
